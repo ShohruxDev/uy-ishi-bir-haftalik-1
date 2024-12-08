@@ -1,0 +1,82 @@
+@media screen and (max-width: 900px){
+   .takoo{
+    p{
+        font-size: 13px;
+    }
+   } 
+   .logotip{
+    p{
+        font-size: 30px;
+    }
+   }
+   .logo{
+    justify-content: space-around;
+    .log{
+        width: 15%;
+        h1{
+            font-size: 32px;
+        }
+        p{
+            font-size: 14px;
+            width: 40%;
+            .pooo{
+                p{
+                    display: none;
+                }
+                
+            }
+        }
+    }
+   }
+}
+@media screen and (max-width: 768px){
+    .vam{
+        background-image: url(./assets/images/img-1.svg);  
+    }
+    .raz{
+        button{
+            &:hover{
+                background-color: blue;
+            }
+        }
+    }
+    .face{
+        &:hover{
+            background-color: rgb(67, 67, 68);
+        } 
+    }
+    .nujen{
+        b{
+            width: 65%;
+            color: rgba(255, 255, 255, 1);
+        }
+        p{
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+    .duj{
+        flex-direction: column;
+    }
+    .btn-0{
+        width: 20vw;
+    }
+    .takoe{
+       
+        .tak{
+            flex-direction: column;
+            
+            width: 100%;
+            .tako{
+                width: 50%;
+                margin-bottom: 20px;
+                
+            }
+        }
+    }
+    .logotip{
+        flex-wrap: wrap;
+    }
+    .logo{
+        flex-wrap: wrap;
+    }
+}
